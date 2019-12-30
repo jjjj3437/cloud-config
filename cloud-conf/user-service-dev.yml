@@ -16,4 +16,10 @@ eureka:
       
   cloud:
     config:
-      override-none: true      
+      override-none: true    
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh  
